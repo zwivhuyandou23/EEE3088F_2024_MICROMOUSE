@@ -1197,7 +1197,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6ec5c746-6902-4b16-aa77-feb4bf08f57a")
+		(uuid "9f687a76-b993-4f75-ab41-109fb025256e")
 	)
 	(wire
 		(pts
@@ -1379,6 +1379,12 @@
 			(uuid "4cfa77d3-837b-43f8-ba95-ed8c45032bc8")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "D6")
@@ -1445,6 +1451,12 @@
 			(uuid "c412be27-4830-4e12-8513-beb778a93a31")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "#PWR05")
@@ -1521,6 +1533,12 @@
 			(uuid "25cd6417-5703-4271-b50b-83d39fd3c19e")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "Q3")
@@ -1588,6 +1606,12 @@
 			(uuid "fbdf9dde-be92-4112-9a42-cb869b3392e5")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "TP8")
@@ -1656,6 +1680,12 @@
 			(uuid "040fc6c1-7b87-4266-9f38-69e3efd78cd5")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "R5")
@@ -1726,6 +1756,12 @@
 			(uuid "54952e8d-6c32-4965-9b0a-452fbef4b3f0")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "D5")
@@ -1791,6 +1827,12 @@
 			(uuid "c48563ce-6aa2-473c-9c90-fa6ce911fe85")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "TP9")
@@ -1864,6 +1906,12 @@
 			(uuid "39dfe7df-8c97-4171-ac12-cee7f2223b29")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "U3")
@@ -1934,6 +1982,12 @@
 			(uuid "091e4c31-33c2-4e9c-a267-cee0fedc03b8")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "R6")
@@ -2000,6 +2054,12 @@
 			(uuid "9dfbab76-417e-4536-bc69-175917fd4336")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "#PWR06")
@@ -2067,12 +2127,23 @@
 			(uuid "386e2fc4-de4b-4df0-ba8a-f2e66ec4a516")
 		)
 		(instances
+			(project "Right Sensor"
+				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
 					(reference "TP7")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )
