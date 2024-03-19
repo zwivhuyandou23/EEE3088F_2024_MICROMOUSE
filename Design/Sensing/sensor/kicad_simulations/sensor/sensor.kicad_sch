@@ -777,6 +777,72 @@
 			)
 		)
 	)
+	(label "+5V"
+		(at 194.31 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01072232-5979-47f5-a835-c194b491826f")
+	)
+	(label "+3.3V"
+		(at 194.31 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "498e3d75-966e-4f30-a655-6f7db4fcafc9")
+	)
+	(label "+5V"
+		(at 163.83 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a554efd-5969-4d91-a11d-2ed8fa67c5e3")
+	)
+	(label "+3.3V"
+		(at 163.83 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80bf8c47-f8ba-4a1f-b5c0-e8e1ff8cfbdc")
+	)
+	(label "+3.3V"
+		(at 130.81 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf7c4063-cf66-42f8-bc73-09959024f022")
+	)
+	(label "+5V"
+		(at 130.81 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c97a50d5-15f2-4787-a662-7ba7d7e45823")
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 187.96 115.57 0)
@@ -1081,16 +1147,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout_to_ADC" input
-			(at 137.16 63.5 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "fbee36ef-0a3c-4072-bd0b-ddb93424eff8")
-		)
 		(pin "+3.3V" input
 			(at 163.83 58.42 0)
 			(effects
@@ -1111,6 +1167,16 @@
 			)
 			(uuid "61fe5d0d-f3c5-4205-a532-6924250bfb75")
 		)
+		(pin "Vout_to_PA3" input
+			(at 152.4 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c36309b7-610b-466a-8aa6-c600c8451b73")
+		)
 		(instances
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
@@ -1120,7 +1186,7 @@
 		)
 	)
 	(sheet
-		(at 171.1715 75.8907)
+		(at 167.64 76.2)
 		(size 26.67 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -1130,9 +1196,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "d9501daf-1b4d-4fb8-8361-4b2ee00dd637")
+		(uuid "e47dda33-5bf1-4997-a186-9309ec9173bc")
 		(property "Sheetname" "Right Sensor"
-			(at 171.1715 75.1791 0)
+			(at 167.64 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1141,7 +1207,7 @@
 			)
 		)
 		(property "Sheetfile" "Right Sensor.kicad_sch"
-			(at 171.1715 92.9853 0)
+			(at 167.64 93.2946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,35 +1215,35 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout_to_ADC" input
-			(at 171.1715 86.36 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "ad59d5a2-a779-43cb-9d59-cc3c127c6e1d")
-		)
 		(pin "+3.3V" input
-			(at 193.04 75.8907 90)
+			(at 194.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "971f4991-7d21-40df-ac18-c896041cfe03")
+			(uuid "32a7cf74-bdce-4649-9a53-a5ee6ec4e586")
 		)
 		(pin "+5V" input
-			(at 197.8415 81.28 0)
+			(at 194.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "e81466de-05bc-4ac1-a5e2-8b1a3603d4a1")
+			(uuid "e770436e-7b23-44e4-a923-afe343ca1182")
+		)
+		(pin "Vout_to_PA5" input
+			(at 181.61 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "807d69e6-07ca-4405-a814-d8e92fd5de5a")
 		)
 		(instances
 			(project "sensor"
@@ -1217,16 +1283,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout_to_ADC" input
-			(at 119.38 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b8c0ca55-b2ac-4156-9398-fe3f97b3f844")
-		)
 		(pin "+3.3V" input
 			(at 130.81 80.01 0)
 			(effects
@@ -1246,6 +1302,16 @@
 				(justify right)
 			)
 			(uuid "8bf38650-fc07-4794-b5d0-f2d8df3cde14")
+		)
+		(pin "Vout_to_PA4" input
+			(at 121.92 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ab7780a8-f2aa-42e5-bdd8-f70e3f187e8c")
 		)
 		(instances
 			(project "sensor"

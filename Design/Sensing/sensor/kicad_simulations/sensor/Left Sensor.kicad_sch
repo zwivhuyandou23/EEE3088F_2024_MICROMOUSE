@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "e57c3681-95b0-47f0-b063-322d340fb57d")
+	(uuid "8b06c4e0-2999-4796-b79b-1c67df03651f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -1122,156 +1122,156 @@
 		)
 	)
 	(junction
-		(at 165.1 120.65)
+		(at 154.94 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b4cc589-2323-4edc-9a5b-4f672e630d8d")
+		(uuid "029a3d70-5960-4a17-b60a-9302acde6090")
 	)
 	(junction
-		(at 115.57 124.46)
+		(at 144.78 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "673b196c-c705-4f2c-ab08-3a32ad05c9fb")
+		(uuid "05527464-209a-4773-ad37-747509cb0a9e")
 	)
 	(junction
-		(at 125.73 106.68)
+		(at 194.31 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1f6fb39-3391-4479-88e8-20bdcfef45c1")
+		(uuid "123148d3-c660-414e-9938-31c41be7c1ff")
 	)
 	(wire
 		(pts
-			(xy 100.33 124.46) (xy 104.14 124.46)
+			(xy 194.31 109.22) (xy 194.31 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06d2b920-562e-4342-b4bd-55bb521be1c7")
+		(uuid "130e29d4-abcd-4b20-b47a-73df24308338")
 	)
 	(wire
 		(pts
-			(xy 111.76 124.46) (xy 115.57 124.46)
+			(xy 199.39 101.6) (xy 203.2 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14d67691-bfdf-43f9-b997-c7e5d958a139")
+		(uuid "1fb232b3-b871-49db-883c-3e88db58012e")
 	)
 	(wire
 		(pts
-			(xy 170.18 113.03) (xy 173.99 113.03)
+			(xy 154.94 118.11) (xy 154.94 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1aedaaa0-a5df-4e9f-b225-47b83b39d542")
+		(uuid "268091e8-0431-4e72-bb8e-4662a5011acc")
 	)
 	(wire
 		(pts
-			(xy 125.73 106.68) (xy 125.73 107.95)
+			(xy 184.15 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3aca688a-c988-44c6-8f26-c5b9cb354e3a")
+		(uuid "3166a77e-7048-481d-b70e-716f8bc876fc")
 	)
 	(wire
 		(pts
-			(xy 125.73 115.57) (xy 125.73 119.38)
+			(xy 154.94 82.55) (xy 154.94 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ba9f604-326f-460b-9d1c-cb328b7856ea")
+		(uuid "35f4446a-02c9-4fa0-99ec-4a1295712284")
 	)
 	(wire
 		(pts
-			(xy 125.73 78.74) (xy 125.73 86.36)
+			(xy 154.94 104.14) (xy 154.94 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9f687a76-b993-4f75-ab41-109fb025256e")
+		(uuid "6a9d7d0c-b2f1-47ce-9453-f83a897fc759")
 	)
 	(wire
 		(pts
-			(xy 125.73 104.14) (xy 125.73 106.68)
+			(xy 144.78 113.03) (xy 147.32 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2f2b137-7b02-4ce9-aa06-be77c0720fd4")
+		(uuid "74828dd6-4b5c-4113-86ed-7b0d902b92a4")
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 125.73 96.52)
+			(xy 154.94 95.25) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6c8db71-e904-4c14-9402-d1e1e0d3195a")
+		(uuid "788ffbfd-7f47-48c6-8edd-36c3c3e4894e")
 	)
 	(wire
 		(pts
-			(xy 125.73 129.54) (xy 125.73 140.97)
+			(xy 140.97 113.03) (xy 144.78 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7f25598-132c-4747-bc96-ac00aab6f424")
+		(uuid "9b70ecf9-dd8f-4a17-a401-ce19cc17010d")
 	)
 	(wire
 		(pts
-			(xy 154.94 113.03) (xy 160.02 113.03)
+			(xy 129.54 113.03) (xy 133.35 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da92dd60-9576-44bf-9691-632d0ce6cf92")
+		(uuid "b8e38ec9-dea2-4327-b2b6-23180d43c0b9")
 	)
 	(wire
 		(pts
-			(xy 115.57 124.46) (xy 118.11 124.46)
+			(xy 154.94 67.31) (xy 154.94 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e163b690-3e91-4afc-876e-613b40c0e88d")
+		(uuid "e6bb0ee6-0ad0-4312-876e-ce2bb3a9246f")
 	)
 	(wire
 		(pts
-			(xy 165.1 120.65) (xy 165.1 130.81)
+			(xy 154.94 92.71) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e5992319-e1a7-4531-8b32-93b0cc30f346")
+		(uuid "f92e4171-80fe-4cbf-8313-e7187faae6f1")
 	)
 	(wire
 		(pts
-			(xy 165.1 113.03) (xy 165.1 120.65)
+			(xy 194.31 101.6) (xy 194.31 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff09597a-7e4d-4d35-a0e8-87b394b4e963")
+		(uuid "f978c785-d4e8-413a-84b8-a95bd3d2430e")
 	)
 	(hierarchical_label "+3.3V"
 		(shape input)
-		(at 173.99 113.03 90)
+		(at 129.54 113.03 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1279,11 +1279,23 @@
 			)
 			(justify left)
 		)
-		(uuid "45f56fcb-ce47-41a3-ab34-0f50ccb0de0f")
+		(uuid "1e12a3a7-bbd2-4849-b8f0-03578f34fd98")
+	)
+	(hierarchical_label "+3.3V"
+		(shape input)
+		(at 203.2 101.6 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60961267-3e47-41bd-8779-fb67e636d255")
 	)
 	(hierarchical_label "+5V"
 		(shape input)
-		(at 125.73 78.74 0)
+		(at 154.94 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1291,11 +1303,11 @@
 			)
 			(justify left)
 		)
-		(uuid "68b0d5f6-8dda-4204-b1f0-54a23e2b5f26")
+		(uuid "80d287a7-8360-4fe1-838f-17c148a63998")
 	)
-	(hierarchical_label "Vout_to_ADC"
+	(hierarchical_label "Vout_to_PA4"
 		(shape input)
-		(at 165.1 130.81 0)
+		(at 194.31 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1303,32 +1315,20 @@
 			)
 			(justify left)
 		)
-		(uuid "8e57744f-26c4-43ef-8ae7-0ad87d67e34b")
-	)
-	(hierarchical_label "+3.3V"
-		(shape input)
-		(at 100.33 124.46 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e4a36ac1-8009-42f6-8ee7-c1d61292639d")
+		(uuid "f516f3fc-c885-4d55-8fa8-19499e127288")
 	)
 	(symbol
-		(lib_id "LED:TSAL4400")
-		(at 125.73 99.06 90)
+		(lib_id "Device:R")
+		(at 154.94 100.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "09dbdb11-c3ac-486d-a789-897753547385")
-		(property "Reference" "D6"
-			(at 128.27 98.9329 90)
+		(uuid "0e3050b3-8c81-42d1-a7c5-d56f196726cc")
+		(property "Reference" "R4"
+			(at 157.48 99.0599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,8 +1336,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TSAL4400"
-			(at 128.27 101.4729 90)
+		(property "Value" "18"
+			(at 157.48 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,8 +1345,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 121.285 99.06 0)
+		(property "Footprint" ""
+			(at 156.718 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,8 +1354,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 125.73 100.33 0)
+		(property "Datasheet" "~"
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1363,31 +1363,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 125.73 99.06 0)
+		(property "Description" "Resistor"
+			(at 154.94 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "0c38c98e-5ed9-45ad-ada4-22dbe59c005f")
 		)
 		(pin "2"
-			(uuid "4cfa77d3-837b-43f8-ba95-ed8c45032bc8")
+			(uuid "7a9424d9-8d1d-4160-9d42-db35c547fdc4")
+		)
+		(pin "1"
+			(uuid "7c229643-0df4-4394-9527-cdca9016a06c")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "D6")
-					(unit 1)
-				)
-			)
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "D6")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -1395,16 +1389,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 125.73 140.97 0)
+		(at 154.94 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "167518ec-404e-43c5-82cc-a433ddd550e1")
-		(property "Reference" "#PWR05"
-			(at 125.73 147.32 0)
+		(uuid "231758e1-848c-4da2-a7c0-734efb41f684")
+		(property "Reference" "#PWR01"
+			(at 154.94 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1407,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 146.05 0)
+			(at 154.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1421,7 +1415,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 140.97 0)
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,7 +1424,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 140.97 0)
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1433,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 140.97 0)
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,18 +1442,348 @@
 			)
 		)
 		(pin "1"
-			(uuid "c412be27-4830-4e12-8513-beb778a93a31")
+			(uuid "268ced8e-8b55-452d-9c4d-8802a0bc9067")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "#PWR05")
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 154.94 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55449ffb-5308-464d-a383-6bd85fdf7301")
+		(property "Reference" "TP5"
+			(at 160.02 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 154.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8985654-504e-4b06-b4a1-1e254a816d59")
+		)
+		(instances
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "#PWR05")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "674617f2-0f52-44e5-85f8-ba323e1114de")
+		(property "Reference" "#PWR02"
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d92f684-19b3-484f-9d01-107233b4a802")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 154.94 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69751295-444a-4fb1-b2b0-72a6577680c5")
+		(property "Reference" "D4"
+			(at 157.48 87.5029 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 157.48 90.0429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 150.495 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 154.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c644307f-141f-4d8b-9498-1a1f8b9109ef")
+		)
+		(pin "2"
+			(uuid "583f90a3-ae6b-403e-bdba-f7163da28c00")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "850d9e37-0427-4674-9838-6bda8d0b0788")
+		(property "Reference" "R3"
+			(at 137.16 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.7k"
+			(at 137.16 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "460fdb71-3197-4740-9292-99994ecec779")
+		)
+		(pin "1"
+			(uuid "3d39fafb-ef48-4ed8-bf56-54d7ece4b2b4")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 194.31 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd4f4be4-b971-4f95-a2a7-7eb5760ffcf0")
+		(property "Reference" "TP6"
+			(at 191.008 103.9031 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 191.008 106.4431 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 194.31 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76eacf72-9da4-4fc8-bd14-79c837b3d689")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1467,16 +1791,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 123.19 124.46 0)
+		(at 152.4 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29721f5f-b488-42ce-8077-58179849170d")
-		(property "Reference" "Q3"
-			(at 128.27 123.1899 0)
+		(uuid "cde7673b-9467-48cd-a9cd-83d2bea830d3")
+		(property "Reference" "Q2"
+			(at 157.48 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1485,7 +1809,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 128.27 125.7299 0)
+			(at 157.48 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1494,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 128.27 126.365 0)
+			(at 157.48 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1829,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 123.19 124.46 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1839,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 123.19 124.46 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,24 +1848,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "19b6092f-2ad4-4df2-a98d-807fc9435847")
+			(uuid "a99c65e5-354e-41f6-bcc7-b7e1817b968e")
 		)
 		(pin "3"
-			(uuid "0cba0b33-dbf0-4266-acba-093b5c49a8fb")
+			(uuid "a703a600-436d-4ab4-b28b-d05e66dbea3f")
 		)
 		(pin "1"
-			(uuid "25cd6417-5703-4271-b50b-83d39fd3c19e")
+			(uuid "85f17211-fccd-4a4d-a8df-03acb900638d")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "Q3")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1549,16 +1867,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 125.73 106.68 270)
+		(at 144.78 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2d5cdfc6-4390-4d0e-adf6-f7d31f4ef2a7")
-		(property "Reference" "TP8"
-			(at 130.81 105.4099 90)
+		(uuid "d93dde2f-4bda-4943-88ab-e2a4ee52d6cf")
+		(property "Reference" "TP4"
+			(at 147.32 108.4579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1567,7 +1885,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 130.81 107.9499 90)
+			(at 147.32 110.9979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1576,7 +1894,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 111.76 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1585,7 +1903,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 111.76 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1594,7 +1912,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 125.73 106.68 0)
+			(at 144.78 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1603,239 +1921,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fbdf9dde-be92-4112-9a42-cb869b3392e5")
+			(uuid "d1dc97b5-22fe-4a96-ae3e-c78ac870db25")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "TP8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 107.95 124.46 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f57eb9a-1715-454a-adea-c32fd62bb4e9")
-		(property "Reference" "R5"
-			(at 107.95 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R"
-			(at 107.95 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 122.682 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b301dbda-1884-4cd9-aae0-f9a34fbd8719")
-		)
-		(pin "1"
-			(uuid "040fc6c1-7b87-4266-9f38-69e3efd78cd5")
-		)
-		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:TSAL4400")
-		(at 125.73 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58879f87-885d-414f-8a89-9bd258ebb5f4")
-		(property "Reference" "D5"
-			(at 128.27 88.7729 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSAL4400"
-			(at 128.27 91.3129 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 121.285 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 125.73 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b3d8054c-9139-4d19-a8eb-2634955e152b")
-		)
-		(pin "2"
-			(uuid "54952e8d-6c32-4965-9b0a-452fbef4b3f0")
-		)
-		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 165.1 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6db08428-1acd-4c54-a053-c09d250fb0a3")
-		(property "Reference" "TP9"
-			(at 161.798 115.3331 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 161.798 117.8731 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 165.1 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c48563ce-6aa2-473c-9c90-fa6ce911fe85")
-		)
-		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "TP9")
-					(unit 1)
-				)
-			)
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "TP9")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1843,16 +1934,16 @@
 	)
 	(symbol
 		(lib_id "Sensor_Proximity:TSSP58038")
-		(at 165.1 102.87 270)
+		(at 194.31 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7693abc8-3aac-4968-a1a6-19b9de4b76c0")
-		(property "Reference" "U3"
-			(at 172.72 99.8649 90)
+		(uuid "ec048294-c4b1-4f90-9a71-b8fa8129de07")
+		(property "Reference" "U2"
+			(at 201.93 88.4349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1861,7 +1952,7 @@
 			)
 		)
 		(property "Value" "TSSP58038"
-			(at 172.72 102.4049 90)
+			(at 201.93 90.9749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,7 +1961,7 @@
 			)
 		)
 		(property "Footprint" "OptoDevice:Vishay_MINICAST-3Pin"
-			(at 155.575 101.6 0)
+			(at 184.785 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1879,7 +1970,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/82476/tssp58p38.pdf"
-			(at 172.72 119.38 0)
+			(at 201.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1888,7 +1979,7 @@
 			)
 		)
 		(property "Description" "IR Detector for Mid Range Proximity Sensor"
-			(at 165.1 102.87 0)
+			(at 194.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,41 +1988,35 @@
 			)
 		)
 		(pin "3"
-			(uuid "9a3c633b-bd1b-49c8-962c-431be7107650")
+			(uuid "81209269-0c1a-4e0d-9101-455ef1f7aa8d")
 		)
 		(pin "1"
-			(uuid "72805d89-29ea-465e-9880-3dfd357da6ba")
+			(uuid "367f9cbb-a0ac-4a26-a883-e536511665df")
 		)
 		(pin "2"
-			(uuid "39dfe7df-8c97-4171-ac12-cee7f2223b29")
+			(uuid "06497c21-9bf3-414f-8dfc-c0aac508d5bf")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "U3")
-					(unit 1)
-				)
-			)
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "U3")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "U2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 125.73 111.76 180)
+		(lib_id "LED:TSAL4400")
+		(at 154.94 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "803c73a2-19a7-449c-abfa-98ec83c652ae")
-		(property "Reference" "R6"
-			(at 128.27 110.4899 0)
+		(uuid "f938c669-0101-4a88-a619-f12ec9afde06")
+		(property "Reference" "D3"
+			(at 157.48 77.3429 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1939,8 +2024,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 128.27 113.0299 0)
+		(property "Value" "TSAL4400"
+			(at 157.48 79.8829 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1948,8 +2033,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 127.508 111.76 90)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 150.495 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,8 +2042,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 125.73 111.76 0)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 154.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,184 +2051,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 125.73 111.76 0)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 154.94 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "3d1dfe7f-4a03-42e3-b15f-0fbd02b5dcd2")
 		)
 		(pin "2"
-			(uuid "f432fd1f-fab6-46c9-878b-b0b087da6d3c")
-		)
-		(pin "1"
-			(uuid "091e4c31-33c2-4e9c-a267-cee0fedc03b8")
+			(uuid "56f90756-21e0-4ea5-9d01-190cccdc694a")
 		)
 		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "R6")
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/e580c499-cec2-4113-bbc8-026a5c1017e2"
+					(reference "D3")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a088382d-69b4-4ead-9169-f99879e9467f")
-		(property "Reference" "#PWR06"
-			(at 154.94 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9dfbab76-417e-4536-bc69-175917fd4336")
-		)
-		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 115.57 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de14dbf0-d2d5-4695-8749-5e7399d7643b")
-		(property "Reference" "TP7"
-			(at 118.11 119.8879 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 118.11 122.4279 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 115.57 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "386e2fc4-de4b-4df0-ba8a-f2e66ec4a516")
-		)
-		(instances
-			(project "Right Sensor"
-				(path "/e57c3681-95b0-47f0-b063-322d340fb57d"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35/d9501daf-1b4d-4fb8-8361-4b2ee00dd637"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
 		)
 	)
 )
