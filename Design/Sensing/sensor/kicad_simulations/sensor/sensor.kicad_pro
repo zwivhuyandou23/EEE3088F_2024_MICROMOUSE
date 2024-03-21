@@ -397,18 +397,6 @@
     [
       "fddf1a24-418d-41c5-aa43-003ad0e16f35",
       "Root"
-    ],
-    [
-      "ba756f6e-8a06-4802-8736-57754f68f03f",
-      "Front Sensor"
-    ],
-    [
-      "e47dda33-5bf1-4997-a186-9309ec9173bc",
-      "Right Sensor"
-    ],
-    [
-      "e580c499-cec2-4113-bbc8-026a5c1017e2",
-      "Left Sensor"
     ]
   ],
   "text_variables": {}
