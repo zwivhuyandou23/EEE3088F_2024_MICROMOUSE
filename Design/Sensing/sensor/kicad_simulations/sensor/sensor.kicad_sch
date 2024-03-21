@@ -2282,6 +2282,12 @@
 		)
 	)
 	(junction
+		(at 213.36 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121b533d-678f-492b-8d90-5ecbb65bdda1")
+	)
+	(junction
 		(at 60.96 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2306,6 +2312,12 @@
 		(uuid "46ff74a2-af70-4020-8b8d-87bc65649e3c")
 	)
 	(junction
+		(at 212.09 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53b5b200-1385-4c3e-aea1-9f6c71c8e145")
+	)
+	(junction
 		(at 290.83 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2318,22 +2330,22 @@
 		(uuid "5e072c94-90da-4a40-9b79-e528ad09fffd")
 	)
 	(junction
+		(at 212.09 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885cdb93-524f-4042-826e-959544d9eb16")
+	)
+	(junction
+		(at 60.96 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a17754a6-8c2f-4e42-b10a-472dedd599d7")
+	)
+	(junction
 		(at 135.89 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b277fe99-dc17-425d-8982-393ee54d9db0")
-	)
-	(junction
-		(at 60.96 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c70b1450-b55b-49bc-8ae6-3b3046937e24")
-	)
-	(junction
-		(at 212.09 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c90d77aa-56a6-44bf-9f2d-18ad0f5656f6")
 	)
 	(junction
 		(at 213.36 154.94)
@@ -2348,12 +2360,6 @@
 		(uuid "ceea3148-b2c5-4078-8f50-f5bfc3e71a56")
 	)
 	(junction
-		(at 213.36 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0eb86e9-86cb-43fc-87cb-35532355af39")
-	)
-	(junction
 		(at 213.36 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2364,12 +2370,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da48f287-aed2-4ddd-80c7-12a26980c34e")
-	)
-	(junction
-		(at 212.09 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc5f9814-d96a-49f4-bf79-a1502bd5ae6b")
 	)
 	(no_connect
 		(at 243.84 69.85)
@@ -2385,16 +2385,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 30.48) (xy 212.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08491d5a-744b-4af1-ae52-df778ff7892e")
-	)
-	(wire
-		(pts
 			(xy 201.93 154.94) (xy 213.36 154.94)
 		)
 		(stroke
@@ -2405,7 +2395,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 49.53 39.37)
+			(xy 200.66 30.48) (xy 212.09 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10acc2c7-5c09-4522-9b1e-31669dc1d376")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 49.53 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2465,13 +2465,33 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 130.81) (xy 201.93 134.62)
+			(xy 201.93 124.46) (xy 201.93 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1f60bc50-406d-4989-bfe0-79a2785c51b3")
+	)
+	(wire
+		(pts
+			(xy 60.96 46.99) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226bd7be-6927-4439-9eb0-92a0e95ce59a")
+	)
+	(wire
+		(pts
+			(xy 212.09 39.37) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e2e9b7-b301-49f0-8e85-a73648f0d82b")
 	)
 	(wire
 		(pts
@@ -2515,26 +2535,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 45.72) (xy 212.09 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b315df7-76ca-4b12-b0f1-3d976b6a75db")
-	)
-	(wire
-		(pts
-			(xy 60.96 44.45) (xy 60.96 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3fac94-df6e-42f9-a197-345be0d558a0")
-	)
-	(wire
-		(pts
 			(xy 236.22 148.59) (xy 247.65 148.59)
 		)
 		(stroke
@@ -2575,6 +2575,36 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 124.46) (xy 213.36 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49cab9e7-becf-43ae-a4a5-70fe11c05eb4")
+	)
+	(wire
+		(pts
+			(xy 60.96 26.67) (xy 60.96 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab725ad-bd7c-4fd4-8e0a-6b5ece4f5fe8")
+	)
+	(wire
+		(pts
+			(xy 213.36 123.19) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d05b554-d3f2-411a-b513-8d76a273a9ff")
+	)
+	(wire
+		(pts
 			(xy 251.46 54.61) (xy 251.46 58.42)
 		)
 		(stroke
@@ -2605,7 +2635,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 54.61) (xy 200.66 60.96)
+			(xy 201.93 124.46) (xy 213.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a716166-7cc6-4d82-8b94-6f480b4022b2")
+	)
+	(wire
+		(pts
+			(xy 200.66 54.61) (xy 200.66 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2632,16 +2672,6 @@
 			(type default)
 		)
 		(uuid "613fc07c-9faf-4aea-b1bd-49ba92ea3bd7")
-	)
-	(wire
-		(pts
-			(xy 212.09 36.83) (xy 212.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62d3134b-6854-489a-8e6d-8efba3d820e2")
 	)
 	(wire
 		(pts
@@ -2675,6 +2705,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 38.1) (xy 60.96 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5b4958-b560-4a20-b2c6-9f3f9cba1340")
+	)
+	(wire
+		(pts
 			(xy 299.72 119.38) (xy 306.07 119.38)
 		)
 		(stroke
@@ -2695,7 +2735,17 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 60.96) (xy 212.09 60.96)
+			(xy 60.96 29.21) (xy 60.96 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2f4fd6-06a1-41d7-9322-4188058e9d78")
+	)
+	(wire
+		(pts
+			(xy 200.66 58.42) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2765,6 +2815,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 58.42) (xy 212.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a33efd9e-4326-4a09-a04d-7632b7cfd337")
+	)
+	(wire
+		(pts
+			(xy 213.36 133.35) (xy 213.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abf38ad6-9122-425b-8199-45995933b9cc")
+	)
+	(wire
+		(pts
 			(xy 96.52 59.69) (xy 96.52 63.5)
 		)
 		(stroke
@@ -2775,16 +2845,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5103b32-3d7b-4b01-85a9-1d232ee9821e")
-	)
-	(wire
-		(pts
 			(xy 256.54 54.61) (xy 273.05 54.61)
 		)
 		(stroke
@@ -2792,26 +2852,6 @@
 			(type default)
 		)
 		(uuid "b5f978ed-67f2-4115-b3d9-216baf89d1f9")
-	)
-	(wire
-		(pts
-			(xy 213.36 130.81) (xy 213.36 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b694cdc4-f12d-445a-8a06-183ba94faa8b")
-	)
-	(wire
-		(pts
-			(xy 213.36 139.7) (xy 213.36 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b91dbdb7-0fe9-4fed-abad-07e66c2c421f")
 	)
 	(wire
 		(pts
@@ -2845,17 +2885,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 29.21) (xy 60.96 35.56)
+			(xy 213.36 142.24) (xy 213.36 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c54b4bd6-1157-4d1f-9deb-3c0fe46978d2")
+		(uuid "c9dde5dc-c8cd-4170-8e1e-cbda927a8985")
 	)
 	(wire
 		(pts
-			(xy 212.09 57.15) (xy 212.09 59.69)
+			(xy 212.09 30.48) (xy 212.09 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2049e7-c5b3-4fc6-bde7-b1e81898397f")
+	)
+	(wire
+		(pts
+			(xy 212.09 57.15) (xy 212.09 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2895,23 +2945,33 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 60.96 36.83)
+			(xy 212.09 48.26) (xy 212.09 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbd76714-1dd2-4700-822f-7aee027429ca")
+		(uuid "da6d9202-f658-4549-8c57-e7938cb7e5e6")
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 200.66 40.64)
+			(xy 200.66 30.48) (xy 200.66 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df817a86-fc8a-453e-95b5-fce31f5d6395")
+	)
+	(wire
+		(pts
+			(xy 49.53 29.21) (xy 60.96 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30d0816-cd16-4540-940d-bd0593c36285")
 	)
 	(wire
 		(pts
@@ -2955,26 +3015,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 36.83) (xy 212.09 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67ac8fd-5438-4787-8323-7f7187788bed")
-	)
-	(wire
-		(pts
-			(xy 201.93 130.81) (xy 213.36 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6aabfd6-d43a-4d97-bad4-84b59050dca4")
-	)
-	(wire
-		(pts
 			(xy 213.36 165.1) (xy 213.36 176.53)
 		)
 		(stroke
@@ -2995,13 +3035,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 35.56) (xy 60.96 35.56)
+			(xy 212.09 29.21) (xy 212.09 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "feae3ad3-dca3-49a5-9c68-6951eb7d555f")
+		(uuid "fc62ca0d-77ae-4100-9889-490fd8c11d1d")
 	)
 	(wire
 		(pts
@@ -3154,6 +3194,17 @@
 			(justify right bottom)
 		)
 		(uuid "0643faff-2d37-4f05-8011-1047418c9f3b")
+	)
+	(label "5V"
+		(at 213.36 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08520472-4a79-4219-9255-5399b232fe7d")
 	)
 	(label "PE8"
 		(at 60.96 167.64 180)
@@ -3342,6 +3393,17 @@
 		)
 		(uuid "60c2a996-efec-4b6a-96e9-893547ca6f58")
 	)
+	(label "5V"
+		(at 212.09 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61fbe556-6567-4a48-8a89-b1b973860b8a")
+	)
 	(label "3V3"
 		(at 306.07 119.38 0)
 		(fields_autoplaced yes)
@@ -3353,8 +3415,8 @@
 		)
 		(uuid "6f58ca8f-c4cf-4a31-a5f0-cf4e27561632")
 	)
-	(label "3V3"
-		(at 60.96 29.21 0)
+	(label "5V"
+		(at 60.96 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3540,17 +3602,6 @@
 		)
 		(uuid "d98a8a2d-3408-4821-ad3d-b4eac0374aa8")
 	)
-	(label "3V3"
-		(at 212.09 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "da499d23-a5e9-4277-8d7d-577b6ccab96c")
-	)
 	(label "BATT"
 		(at 60.96 144.78 180)
 		(fields_autoplaced yes)
@@ -3606,6 +3657,17 @@
 		)
 		(uuid "f26dc148-862d-4393-8ab8-8ecb1a0721a2")
 	)
+	(label "5V"
+		(at 106.68 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f30b10f5-6a9e-4262-9994-9c5d8e456c9c")
+	)
 	(label "PA4"
 		(at 186.69 66.04 0)
 		(fields_autoplaced yes)
@@ -3627,17 +3689,6 @@
 			(justify left bottom)
 		)
 		(uuid "fdd165ed-7f25-4b62-baf3-b4b4de969ce5")
-	)
-	(label "3V3"
-		(at 213.36 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe8abd1a-0114-4e8e-bf97-961d468a5e2d")
 	)
 	(label "PE9"
 		(at 60.96 165.1 180)
@@ -3916,6 +3967,76 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 60.96 33.02 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11c93c71-7cb7-47eb-8a69-690af7e380a9")
+		(property "Reference" "D4"
+			(at 63.5 32.8929 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 63.5 35.4329 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 56.515 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 60.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 60.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9a86425-e62f-436c-b458-f25cb13b83c9")
+		)
+		(pin "2"
+			(uuid "2c79b8f7-538a-4c67-891a-cd9d8b53f1db")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Proximity:TSSP58038")
 		(at 252.73 138.43 270)
 		(unit 1)
@@ -4079,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 96.52 58.42 0)
 			(effects
 				(font
@@ -4247,6 +4368,71 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 101.6 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28bb1c05-bd6c-4f1a-b441-ef3e1bb2cff3")
+		(property "Reference" "J18"
+			(at 102.235 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 102.235 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 101.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7e11b53-99cf-4246-86d4-84cb11d47e1e")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "LED:TSAL4400")
-		(at 60.96 39.37 90)
+		(at 60.96 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4539,15 +4725,6 @@
 		(fields_autoplaced yes)
 		(uuid "4957a35e-e5b4-49bc-9368-c34715e0a315")
 		(property "Reference" "D2"
-			(at 63.5 39.2429 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSAL4400"
 			(at 63.5 41.7829 90)
 			(effects
 				(font
@@ -4556,8 +4733,17 @@
 				(justify right)
 			)
 		)
+		(property "Value" "TSAL4400"
+			(at 63.5 44.3229 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 56.515 39.37 0)
+			(at 56.515 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4752,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 60.96 40.64 0)
+			(at 60.96 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4761,7 @@
 			)
 		)
 		(property "Description" "Infrared LED , 3mm LED package"
-			(at 60.96 39.37 0)
+			(at 60.96 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,6 +4917,146 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 213.36 128.27 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f8befdd-b07f-4c04-a1df-e20cc3f9fd94")
+		(property "Reference" "D3"
+			(at 215.9 128.1429 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 215.9 130.6829 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 208.915 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 213.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ceb836b4-0d43-4bc9-96af-a41434108fe7")
+		)
+		(pin "2"
+			(uuid "a53f63a7-ebc3-4213-bd5b-cd92cf9aef09")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 212.09 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5715c66e-535c-4d27-98cc-b506f306614e")
+		(property "Reference" "D5"
+			(at 214.63 43.0529 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 214.63 45.5929 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 207.645 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 212.09 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 212.09 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16454326-08a3-4656-81b4-42d7d32b16ab")
+		)
+		(pin "2"
+			(uuid "e73d36b2-764f-402d-b682-95b5277cb414")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5068,7 +5394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 252.73 147.32 0)
 			(effects
 				(font
@@ -5236,76 +5562,6 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:TSAL4400")
-		(at 213.36 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "753285b3-3fd1-4c88-8e45-6374809eed92")
-		(property "Reference" "D3"
-			(at 215.9 134.4929 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSAL4400"
-			(at 215.9 137.0329 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 208.915 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 213.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 213.36 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f8e4e23-8a5d-4c4c-a9f3-962def9e8277")
-		)
-		(pin "2"
-			(uuid "a5361266-9c1a-4cae-93e0-374a201a889b")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -5573,6 +5829,76 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 212.09 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "846dec3b-4960-4b3f-8359-c478515723c4")
+		(property "Reference" "D1"
+			(at 214.63 34.1629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 214.63 36.7029 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 207.645 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 212.09 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 212.09 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6c2a80f-e495-4421-a40e-c6d145b412a8")
+		)
+		(pin "2"
+			(uuid "4973c3eb-05a0-4b3b-b4a5-8fe143a1d8e2")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6019,7 +6345,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 212.09 64.77 0)
 			(effects
 				(font
@@ -6376,7 +6702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -6443,7 +6769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 213.36 158.75 0)
 			(effects
 				(font
@@ -6642,7 +6968,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 251.46 53.34 0)
 			(effects
 				(font
@@ -6930,6 +7256,76 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:TSAL4400")
+		(at 213.36 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba7c7ba-8001-49be-b44d-33547458c96d")
+		(property "Reference" "D6"
+			(at 215.9 137.0329 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TSAL4400"
+			(at 215.9 139.5729 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+			(at 208.915 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Infrared LED , 3mm LED package"
+			(at 213.36 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42b0497c-78f0-41bb-825f-eab5575da2e4")
+		)
+		(pin "2"
+			(uuid "3eb48d13-760f-4ff1-b088-8bb6a193ec9a")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 236.22 148.59 0)
 		(unit 1)
@@ -7094,76 +7490,6 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:TSAL4400")
-		(at 212.09 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9035e00-3688-4d3e-8286-077f485774f4")
-		(property "Reference" "D1"
-			(at 214.63 40.5129 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TSAL4400"
-			(at 214.63 43.0529 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
-			(at 207.645 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/81006/tsal4400.pdf"
-			(at 212.09 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Infrared LED , 3mm LED package"
-			(at 212.09 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2da63c4e-a508-4362-a230-93b4899cb737")
-		)
-		(pin "2"
-			(uuid "ae354dd1-16ff-4516-9c74-0859609170bc")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "D1")
 					(unit 1)
 				)
 			)
