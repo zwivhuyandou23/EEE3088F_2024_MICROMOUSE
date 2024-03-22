@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:2N3904"
+		(symbol "Transistor_BJT:MMBT2222A"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -2250,7 +2250,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3904"
+			(property "Value" "MMBT2222A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2259,7 +2259,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -2270,7 +2270,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2280,7 +2280,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2298,7 +2298,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2307,7 +2307,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3904_0_1"
+			(symbol "MMBT2222A_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -2368,11 +2368,11 @@
 					)
 				)
 			)
-			(symbol "2N3904_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+			(symbol "MMBT2222A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2388,9 +2388,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2541,10 +2541,10 @@
 		(uuid "2c5ee328-e37c-4de3-938c-b50e3e326254")
 	)
 	(junction
-		(at 60.96 59.69)
+		(at 213.36 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "34a30d6a-be8e-4d22-8125-36bdd7b41365")
+		(uuid "3a4d8ba6-6240-4c0a-8273-6dd165d99cbe")
 	)
 	(junction
 		(at 96.52 63.5)
@@ -2589,12 +2589,6 @@
 		(uuid "b277fe99-dc17-425d-8982-393ee54d9db0")
 	)
 	(junction
-		(at 213.36 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb0bde55-35a6-46b9-8550-db9036ad49a0")
-	)
-	(junction
 		(at 251.46 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2611,6 +2605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "da48f287-aed2-4ddd-80c7-12a26980c34e")
+	)
+	(junction
+		(at 60.96 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3da3f6b-fa24-461e-834c-02b6dee3815e")
 	)
 	(no_connect
 		(at 243.84 69.85)
@@ -3426,13 +3426,13 @@
 		(uuid "cd5b218b-dbe5-44c8-8ae7-4302fc6e7658")
 	)
 	(label "RESV1"
-		(at 66.04 170.18 180)
+		(at 78.74 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "0643faff-2d37-4f05-8011-1047418c9f3b")
 	)
@@ -3448,24 +3448,24 @@
 		(uuid "08520472-4a79-4219-9255-5399b232fe7d")
 	)
 	(label "PE8"
-		(at 66.04 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c4a094c-932e-4c93-9e89-a7f355f6f1f2")
-	)
-	(label "RESV3"
-		(at 78.74 142.24 0)
+		(at 78.74 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "0c4a094c-932e-4c93-9e89-a7f355f6f1f2")
+	)
+	(label "RESV3"
+		(at 66.04 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "1058f8ef-12f5-41dd-b413-e42f0de51384")
 	)
@@ -3481,24 +3481,24 @@
 		(uuid "13f29f43-1f1a-4943-b6ad-f4d4aef293ee")
 	)
 	(label "PA3"
-		(at 78.74 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1faf419a-24ab-4853-8a5e-4a9c4dcf05e2")
-	)
-	(label "PA13"
-		(at 66.04 154.94 180)
+		(at 66.04 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "1faf419a-24ab-4853-8a5e-4a9c4dcf05e2")
+	)
+	(label "PA13"
+		(at 78.74 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "21b8980f-ab16-44d6-a9e5-facfaee5550a")
 	)
@@ -3514,18 +3514,7 @@
 		(uuid "26519b72-d9e3-4819-9117-ed5e52121a6d")
 	)
 	(label "PC5"
-		(at 78.74 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27561cc9-a921-42ed-a5ab-180181180307")
-	)
-	(label "3V3"
-		(at 66.04 175.26 180)
+		(at 66.04 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3533,10 +3522,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "27d9f43a-0463-4689-9c42-c1eaeb9ed7af")
+		(uuid "27561cc9-a921-42ed-a5ab-180181180307")
 	)
-	(label "PA5"
-		(at 35.56 64.77 0)
+	(label "3V3"
+		(at 78.74 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3544,9 +3533,42 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2aba43ad-9e55-4956-b182-d533bafb54ec")
+		(uuid "27d9f43a-0463-4689-9c42-c1eaeb9ed7af")
 	)
 	(label "PA5"
+		(at 66.04 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c4a6d0f-50cd-4cd6-baa5-ad1461c0bd6a")
+	)
+	(label "GND"
+		(at 66.04 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37c83a18-8aa8-4270-b44a-c0124def770e")
+	)
+	(label "PA6"
+		(at 66.04 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49f64e35-6f7a-4719-9391-ba9666c07514")
+	)
+	(label "PA10"
 		(at 78.74 154.94 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3554,39 +3576,6 @@
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
-		)
-		(uuid "2c4a6d0f-50cd-4cd6-baa5-ad1461c0bd6a")
-	)
-	(label "GND"
-		(at 78.74 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "37c83a18-8aa8-4270-b44a-c0124def770e")
-	)
-	(label "PA6"
-		(at 78.74 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49f64e35-6f7a-4719-9391-ba9666c07514")
-	)
-	(label "PA10"
-		(at 66.04 162.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
 		)
 		(uuid "4b30dc0b-7696-47fb-a9da-71c820e8b7cd")
 	)
@@ -3613,7 +3602,18 @@
 		(uuid "5c1c064b-c813-43da-9d4f-d34c4042b5be")
 	)
 	(label "BATT"
-		(at 66.04 172.72 180)
+		(at 78.74 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5db01541-2e70-4f4a-9008-bd8b003528e9")
+	)
+	(label "PE15"
+		(at 186.69 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3621,7 +3621,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "5db01541-2e70-4f4a-9008-bd8b003528e9")
+		(uuid "5ed077e3-e2ac-4952-9dc4-5614eebcfe60")
 	)
 	(label "3V3"
 		(at 260.35 161.29 0)
@@ -3656,6 +3656,17 @@
 		)
 		(uuid "6f58ca8f-c4cf-4a31-a5f0-cf4e27561632")
 	)
+	(label "PE15"
+		(at 35.56 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7089b7fc-b0dd-41fd-a3e3-81e1afaddb29")
+	)
 	(label "5V"
 		(at 60.96 26.67 0)
 		(fields_autoplaced yes)
@@ -3668,13 +3679,13 @@
 		(uuid "74aa60d2-4f1c-4e8f-9b0f-b9826ddd52ad")
 	)
 	(label "PE15"
-		(at 66.04 149.86 180)
+		(at 78.74 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "74c6c43f-87b3-4d7c-b540-fcbe9c5d354d")
 	)
@@ -3690,6 +3701,17 @@
 		(uuid "7bf94187-1150-4426-890f-f8e9b94a947a")
 	)
 	(label "GND"
+		(at 66.04 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8421fae7-c87f-4983-a9c8-e1cab1a6c1ca")
+	)
+	(label "3V3"
 		(at 78.74 175.26 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3698,27 +3720,16 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8421fae7-c87f-4983-a9c8-e1cab1a6c1ca")
+		(uuid "8b451c92-498e-4657-8017-d689dd35549d")
 	)
-	(label "3V3"
-		(at 66.04 142.24 180)
+	(label "AB0"
+		(at 66.04 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "8b451c92-498e-4657-8017-d689dd35549d")
-	)
-	(label "AB0"
-		(at 78.74 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "90ef5c81-5a11-455d-a021-5d498f2ed179")
 	)
@@ -3734,13 +3745,13 @@
 		(uuid "94e306f3-b6da-4044-a35c-ac7f3c851d7b")
 	)
 	(label "PA4"
-		(at 78.74 149.86 0)
+		(at 66.04 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9d1d3de4-ad94-40d4-b10c-31836344cd4a")
 	)
@@ -3766,14 +3777,25 @@
 		)
 		(uuid "b8d4806b-4b09-4fae-b14f-2ecd100d94df")
 	)
-	(label "GND"
-		(at 78.74 144.78 0)
+	(label "PE15"
+		(at 187.96 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "c4a59f95-e22d-4c63-a3b8-342a19cf4d1d")
+	)
+	(label "GND"
+		(at 66.04 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "c522a920-f2a2-4e2d-9496-5ceedcee756e")
 	)
@@ -3789,40 +3811,29 @@
 		(uuid "c902dd6a-c344-42bf-8312-31223d7a363d")
 	)
 	(label "RESV2"
-		(at 66.04 147.32 180)
+		(at 78.74 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c97c7a69-fcb9-4184-96fb-616fc4df2958")
 	)
 	(label "GND"
-		(at 78.74 167.64 0)
+		(at 66.04 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d08127e9-295d-4983-aa26-4b07c95f551d")
 	)
 	(label "PE14"
-		(at 66.04 152.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d44297cb-30a7-4a55-bc08-eb1adef305a1")
-	)
-	(label "PA7"
-		(at 78.74 162.56 0)
+		(at 78.74 165.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3830,10 +3841,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d8eb20a8-cbe7-44b6-8eb2-971fdcf114fe")
+		(uuid "d44297cb-30a7-4a55-bc08-eb1adef305a1")
 	)
-	(label "PE12"
-		(at 66.04 157.48 180)
+	(label "PA7"
+		(at 66.04 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3841,16 +3852,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d98a8a2d-3408-4821-ad3d-b4eac0374aa8")
+		(uuid "d8eb20a8-cbe7-44b6-8eb2-971fdcf114fe")
 	)
-	(label "BATT"
-		(at 66.04 144.78 180)
+	(label "PE12"
+		(at 78.74 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "d98a8a2d-3408-4821-ad3d-b4eac0374aa8")
+	)
+	(label "BATT"
+		(at 78.74 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "e1d5b321-3a25-46a0-9244-258a8de0052a")
 	)
@@ -3866,7 +3888,18 @@
 		(uuid "e4e6f008-0852-4c81-a3fb-9f3b7c1ca81d")
 	)
 	(label "PE11"
-		(at 66.04 160.02 180)
+		(at 78.74 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb6c7118-3cb8-4851-b83f-b3332c84e182")
+	)
+	(label "PC4"
+		(at 66.04 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3874,27 +3907,16 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "eb6c7118-3cb8-4851-b83f-b3332c84e182")
-	)
-	(label "PC4"
-		(at 78.74 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
 		(uuid "ef0c9483-603b-4b52-a3e6-1cfe0d75a38b")
 	)
 	(label "GND"
-		(at 78.74 160.02 0)
+		(at 66.04 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "f26dc148-862d-4393-8ab8-8ecb1a0721a2")
 	)
@@ -3909,36 +3931,14 @@
 		)
 		(uuid "f30b10f5-6a9e-4262-9994-9c5d8e456c9c")
 	)
-	(label "PA4"
-		(at 186.69 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5817bf4-f3aa-49ea-9d9b-7230e09982eb")
-	)
-	(label "PA3"
-		(at 187.96 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdd165ed-7f25-4b62-baf3-b4b4de969ce5")
-	)
 	(label "PE9"
-		(at 66.04 165.1 180)
+		(at 78.74 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ffaf3815-bf66-424e-84e3-7b1ae75d5360")
 	)
@@ -4235,7 +4235,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 56.515 33.02 0)
 			(effects
 				(font
@@ -4880,82 +4880,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 210.82 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4954797a-bed2-416b-ad02-6a4ebe544ad7")
-		(property "Reference" "Q3"
-			(at 215.9 158.7499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 215.9 161.2899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 215.9 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 210.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 210.82 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0a8c5f4c-2244-4809-8e38-5b0de28751dd")
-		)
-		(pin "3"
-			(uuid "3abe2097-b2a9-4385-9e52-c430a077a0ab")
-		)
-		(pin "1"
-			(uuid "b5bb6fd9-f72b-47d9-af40-9fd7f32ce53c")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:TSAL4400")
 		(at 60.96 41.91 90)
 		(unit 1)
@@ -4983,7 +4907,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 56.515 41.91 0)
 			(effects
 				(font
@@ -5191,7 +5115,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 208.915 128.27 0)
 			(effects
 				(font
@@ -5234,6 +5158,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 210.82 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "549c0408-74c2-4b0a-ba45-91dacb9f524e")
+		(property "Reference" "Q1"
+			(at 215.9 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 215.9 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 215.9 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 210.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 210.82 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e110185-1dd5-48b8-bb74-0322cc0c6ce4")
+		)
+		(pin "3"
+			(uuid "1926b42a-886b-4e5f-9106-d3fc14be05da")
+		)
+		(pin "1"
+			(uuid "8ff6b69e-6105-44dc-826c-8eb926a092c3")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:TSAL4400")
 		(at 212.09 43.18 90)
 		(unit 1)
@@ -5261,7 +5261,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 207.645 43.18 0)
 			(effects
 				(font
@@ -5304,6 +5304,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 58.42 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57747f65-3c50-4b73-816f-d70b4c01193d")
+		(property "Reference" "Q3"
+			(at 63.5 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 63.5 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 58.42 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa988175-f75e-478b-8bb7-843d5aa25893")
+		)
+		(pin "3"
+			(uuid "36e84e98-e768-4760-98c4-f22137d65c4a")
+		)
+		(pin "1"
+			(uuid "dea73998-5ccd-47f4-8703-5658b5fbe0a7")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 129.54 27.94 90)
 		(unit 1)
@@ -5313,7 +5389,7 @@
 		(dnp no)
 		(uuid "65cbc1fc-cee3-476d-8b18-930ade50a7b4")
 		(property "Reference" "J10"
-			(at 124.46 27.305 0)
+			(at 127.254 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 207.645 34.29 0)
 			(effects
 				(font
@@ -6448,6 +6524,82 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT2222A")
+		(at 209.55 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a05bccf2-0537-4c9e-b65a-cd411a4be535")
+		(property "Reference" "Q2"
+			(at 214.63 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT2222A"
+			(at 214.63 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 214.63 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT2222A.pdf"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA Ic, 40V Vce, NPN Transistor, SOT-23"
+			(at 209.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "33d6789a-8c87-4b71-bcd5-e44ba13959c9")
+		)
+		(pin "3"
+			(uuid "3673fe35-e455-4f39-9c4f-b0552532e06f")
+		)
+		(pin "1"
+			(uuid "898b6f5b-e976-40da-a42f-3f5d627adf43")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -7230,82 +7382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 209.55 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9eff466-1f49-4a45-bdb9-456cec07585c")
-		(property "Reference" "Q1"
-			(at 214.63 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 214.63 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 214.63 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 209.55 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 209.55 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bbcd4ebf-06f1-4559-8d05-8bda0be06956")
-		)
-		(pin "3"
-			(uuid "c31d3c1b-4177-4107-be49-09c6afade625")
-		)
-		(pin "1"
-			(uuid "3ce44487-3ab9-4a65-b995-0bebbd102117")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Buffer:BUF602xD")
 		(at 251.46 69.85 270)
 		(unit 1)
@@ -7419,7 +7495,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm_IRBlack"
+		(property "Footprint" "LED_THT:LED_D3.0mm_Horizontal_O1.27mm_Z2.0mm_IRBlack"
 			(at 208.915 137.16 0)
 			(effects
 				(font
@@ -7738,82 +7814,6 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2N3904")
-		(at 58.42 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4e059f1-d86d-4b2a-9bd9-7451e4ba7686")
-		(property "Reference" "Q2"
-			(at 63.5 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 63.5 66.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 63.5 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 58.42 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a08b6807-2261-425a-9835-b58c856677f3")
-		)
-		(pin "3"
-			(uuid "1f95e347-d3db-41fb-a828-beab94911b98")
-		)
-		(pin "1"
-			(uuid "2739ded8-28ee-4e6d-b74f-22a564ed702f")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
