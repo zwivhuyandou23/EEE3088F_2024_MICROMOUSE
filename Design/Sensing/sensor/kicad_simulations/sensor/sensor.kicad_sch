@@ -3413,6 +3413,16 @@
 		)
 		(uuid "87bfe017-3ab3-4c3e-a882-af7095775e19")
 	)
+	(text "INCORRECT NET PLACING, CORRECT IT USING THE PCB ONE\n"
+		(exclude_from_sim no)
+		(at 75.438 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4dac4ec-2243-4e29-9835-1e65cafe55ee")
+	)
 	(text "- PA4 is used for switching on/off the NPN transistor for power saving.\n- It uses the internal TIM14 register to create delays and complete the timing circuitry(sleep/wake).\n- PA7(Left sensor output) is connected to the uC analog input"
 		(exclude_from_sim no)
 		(at 183.642 92.964 0)
@@ -5396,7 +5406,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "L_S_B"
 			(at 123.19 29.972 90)
 			(effects
 				(font
@@ -6406,7 +6416,7 @@
 		(dnp no)
 		(uuid "8f2c691c-1a2a-4289-817a-abbbb8d3f1f3")
 		(property "Reference" "J13"
-			(at 280.67 123.825 0)
+			(at 283.21 123.698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6547,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a05bccf2-0537-4c9e-b65a-cd411a4be535")
 		(property "Reference" "Q2"
 			(at 214.63 64.7699 0)
@@ -7297,16 +7306,16 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Buffer:BUF602xD")
-		(at 252.73 163.83 270)
+		(at 252.73 163.83 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d999f32d-f5f7-44f5-b161-c3b7e3d9b849")
 		(property "Reference" "U6"
-			(at 264.16 154.9714 90)
+			(at 241.3 154.9714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7314,7 +7323,7 @@
 			)
 		)
 		(property "Value" "BUF602xD"
-			(at 264.16 157.5114 90)
+			(at 241.3 157.5114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7322,7 +7331,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 245.11 163.83 0)
+			(at 260.35 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
