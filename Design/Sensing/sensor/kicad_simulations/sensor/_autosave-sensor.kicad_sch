@@ -5396,7 +5396,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "L_S_B"
 			(at 123.19 29.972 90)
 			(effects
 				(font
@@ -6537,7 +6537,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a05bccf2-0537-4c9e-b65a-cd411a4be535")
 		(property "Reference" "Q2"
 			(at 214.63 64.7699 0)
