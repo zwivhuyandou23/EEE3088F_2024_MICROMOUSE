@@ -1454,7 +1454,7 @@
 		(descr "LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins")
 		(tags "LED diameter 3.0mm z-position of LED center 2.0mm 2 pins")
 		(property "Reference" "D1"
-			(at -2.039152 -0.336511 315)
+			(at -2.039152 -0.336511 -45)
 			(layer "F.SilkS")
 			(uuid "1be30fa7-1dcd-447a-aa80-6451cd1b48cd")
 			(effects
@@ -1465,7 +1465,7 @@
 			)
 		)
 		(property "Value" "IR204A"
-			(at 1.27 7.63 315)
+			(at 1.27 7.63 -45)
 			(layer "F.Fab")
 			(uuid "48083b44-0770-488a-9e27-34fc2beb70af")
 			(effects
@@ -1879,7 +1879,7 @@
 			(uuid "8994d241-5afa-4fdd-9ed8-639b6f0f8090")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.270001 0 315)
+			(at 1.270001 0 -45)
 			(layer "F.Fab")
 			(uuid "f8f0330b-b610-43d0-8627-74293aa50b55")
 			(effects
@@ -2663,7 +2663,7 @@
 		)
 		(fp_arc
 			(start 4.54 1.4)
-			(mid 2.54 3.4)
+			(mid 2.54 3.399999)
 			(end 0.54 1.4)
 			(stroke
 				(width 0.1)
@@ -2798,7 +2798,7 @@
 		(path "/d81e0f10-2ec4-4853-9aa0-21cc65e3e8a1")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -2910,7 +2910,7 @@
 		(path "/e99aeeef-99e1-4095-8844-09bbd5ec92d9")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -3138,7 +3138,7 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 6 "Net-(Q2-B)")
 			(pintype "passive")
 			(uuid "1004cb87-fe61-4a13-8bb8-731a7e62ab08")
@@ -3147,7 +3147,7 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 29 "/PE15")
 			(pintype "passive")
 			(uuid "7134a1eb-0d2f-4c1e-aee1-1eadb6d80501")
@@ -3807,7 +3807,7 @@
 		(path "/b8e4fb65-417b-407a-b4f0-b8720ea2d989")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -4035,7 +4035,7 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 7 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "a93510af-485f-4ef3-854e-16e5259d02a4")
@@ -4044,7 +4044,7 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 1 "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "81918b0e-beca-4540-87a9-18515d36bb70")
@@ -4719,7 +4719,7 @@
 			(at -0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 4 "Net-(Q1-B)")
 			(pintype "passive")
 			(uuid "70cb0226-6e1b-40f3-b342-89dbfab81554")
@@ -4728,7 +4728,7 @@
 			(at 0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 29 "/PE15")
 			(pintype "passive")
 			(uuid "f1e4c18a-e694-4c11-8dd8-97122ae13bc5")
@@ -4813,7 +4813,7 @@
 		(path "/3c8d92fb-f40d-49a7-8deb-b13c8926504b")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -5189,7 +5189,7 @@
 		(path "/693c02ba-546d-46ee-b9da-14ebb7d44ac4")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -7254,7 +7254,7 @@
 			(at -0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 14 "Net-(J11-Pin_2)")
 			(pintype "passive")
 			(uuid "83ffd5e4-a05b-46a3-85ae-9672a316a591")
@@ -7263,7 +7263,7 @@
 			(at 0.9125 0 180)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 3 "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "1d56a919-83bb-4da1-83a0-c19277a9f239")
@@ -7657,7 +7657,7 @@
 		(descr "LED, diameter 3.0mm z-position of LED center 2.0mm, 2 pins")
 		(tags "LED diameter 3.0mm z-position of LED center 2.0mm 2 pins")
 		(property "Reference" "D2"
-			(at -2.992641 -0.003427 225)
+			(at -2.992641 -0.003427 -135)
 			(layer "F.SilkS")
 			(uuid "56e382f8-d11e-437c-8274-7ce63e7c2160")
 			(effects
@@ -7668,7 +7668,7 @@
 			)
 		)
 		(property "Value" "IR204A"
-			(at 1.27 7.63 225)
+			(at 1.27 7.63 -135)
 			(layer "F.Fab")
 			(uuid "5172cb92-5ab1-4524-909e-29e3b4d49feb")
 			(effects
@@ -8082,7 +8082,7 @@
 			(uuid "6cb0d73b-83ca-4b0c-b7d2-db8c6b30ab47")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.270001 0 225)
+			(at 1.270001 0 -135)
 			(layer "F.Fab")
 			(uuid "25f305e3-6083-4293-8ae9-2a20176d17ee")
 			(effects
@@ -8194,7 +8194,7 @@
 		(path "/3cb6313f-13c5-41da-89e2-24e50049f6dd")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.7)
@@ -9179,7 +9179,7 @@
 		)
 		(fp_arc
 			(start 4.54 1.4)
-			(mid 2.54 3.399999)
+			(mid 2.54 3.4)
 			(end 0.54 1.4)
 			(stroke
 				(width 0.1)
@@ -9957,7 +9957,7 @@
 			(at -0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 13 "Net-(J2-Pin_2)")
 			(pintype "passive")
 			(uuid "50785aca-7179-46d3-90d8-f7e0683e0269")
@@ -9966,7 +9966,7 @@
 			(at 0.9125 0 90)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.243902)
+			(roundrect_rratio 0.243902439)
 			(net 43 "Net-(D2-K)")
 			(pintype "passive")
 			(uuid "36e4c311-b7b1-405d-a9bd-af3a818f0ae3")
