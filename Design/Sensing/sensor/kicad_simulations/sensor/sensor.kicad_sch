@@ -775,7 +775,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x14_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x14_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -789,7 +789,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x14_Counter_Clockwise"
+			(property "Value" "Conn_02x14_Odd_Even"
 				(at 1.27 -20.32 0)
 				(effects
 					(font
@@ -815,7 +815,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -842,7 +842,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x14_Counter_Clockwise_1_1"
+			(symbol "Conn_02x14_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -17.653)
 					(end 0 -17.907)
@@ -1181,7 +1181,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -1199,7 +1199,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -1217,7 +1217,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -1235,7 +1235,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -1253,7 +1253,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -1271,7 +1271,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -1289,7 +1289,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -1307,7 +1307,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -1325,7 +1325,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -1343,7 +1343,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -1361,7 +1361,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at 7.62 15.24 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1379,7 +1379,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -1397,7 +1397,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -1415,7 +1415,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -1433,7 +1433,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -1451,7 +1451,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -1469,7 +1469,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -1487,7 +1487,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -1505,7 +1505,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -1523,7 +1523,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 180)
+					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -1541,7 +1541,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1559,7 +1559,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1577,7 +1577,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -1595,7 +1595,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -1613,7 +1613,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -1631,7 +1631,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -1649,7 +1649,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -3791,7 +3791,7 @@
 		)
 		(uuid "2d03c451-5b65-4292-8236-0b5de21a2edb")
 	)
-	(label "PA13"
+	(label "PE13"
 		(at 66.04 176.53 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5368,6 +5368,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x14_Odd_Even")
+		(at 71.12 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d2da004-d8c3-40b5-9364-c9a1d28878b6")
+		(property "Reference" "J3"
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x14_Odd_Even"
+			(at 72.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x14_P2.54mm_Vertical"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x14, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "26"
+			(uuid "2174b465-4221-465b-b347-aa8b96973674")
+		)
+		(pin "19"
+			(uuid "31b50692-53f3-4429-8c4f-ddc6bbd51359")
+		)
+		(pin "20"
+			(uuid "f1d90320-734e-4454-8fab-eb69d5bd883e")
+		)
+		(pin "22"
+			(uuid "239ffc63-5395-4b85-b5d7-2ef0fb9f3f6a")
+		)
+		(pin "25"
+			(uuid "f4913725-6ade-4968-a71b-bf252f688aa4")
+		)
+		(pin "3"
+			(uuid "b94e4e54-19f9-4828-8bfc-7144f40ebd31")
+		)
+		(pin "11"
+			(uuid "c8d8db0c-1a59-4c85-a68e-73b70992c137")
+		)
+		(pin "13"
+			(uuid "c35b8e56-4dd5-411a-aa45-0e1c28451023")
+		)
+		(pin "14"
+			(uuid "c41e17ea-ac53-408d-8496-70f38830eeae")
+		)
+		(pin "2"
+			(uuid "1481342b-b50c-45a5-a6f5-83f3a5f4c49e")
+		)
+		(pin "16"
+			(uuid "d035dff9-1acf-41b7-9727-17a8e4a3e7a6")
+		)
+		(pin "5"
+			(uuid "77d47221-ea56-4cbf-a0bd-2a05b9244ae8")
+		)
+		(pin "12"
+			(uuid "6de09f0c-40be-4961-a778-656f0eeadf42")
+		)
+		(pin "21"
+			(uuid "d67bfc27-1ee5-4bca-8920-0735c26032f0")
+		)
+		(pin "27"
+			(uuid "c58e87b3-f21c-475a-a1bd-070f387f6c6f")
+		)
+		(pin "15"
+			(uuid "b5a5e3d3-c8cb-469a-a09c-857f29d24bf5")
+		)
+		(pin "18"
+			(uuid "a9ff2956-748d-4ed6-bc97-70cfd03820c5")
+		)
+		(pin "1"
+			(uuid "f8bfd726-a0db-43bd-a287-768fe104bc58")
+		)
+		(pin "6"
+			(uuid "e9f70c79-5da4-43de-a74f-4af1c99a7da4")
+		)
+		(pin "24"
+			(uuid "a50d81c7-2b74-4cf9-a964-2b87d6ee6b4c")
+		)
+		(pin "7"
+			(uuid "fca20781-da03-49ce-9a82-9d82ca2d18b7")
+		)
+		(pin "4"
+			(uuid "881ba774-bc70-4e36-a28a-f4106be1b7e8")
+		)
+		(pin "8"
+			(uuid "dd309fbd-91fd-47f7-adf0-2fd1bd7e9780")
+		)
+		(pin "17"
+			(uuid "2ef464c4-5d89-4116-b8f2-93e8c7800be9")
+		)
+		(pin "28"
+			(uuid "f440e1cf-b835-4260-830a-f5f2214f6b94")
+		)
+		(pin "23"
+			(uuid "8fc01fb6-6b1e-4881-9ae0-400f5e0daff2")
+		)
+		(pin "9"
+			(uuid "a44cb915-a780-44ff-902c-0c27c3fa87fe")
+		)
+		(pin "10"
+			(uuid "efe7f061-632f-4bcb-af31-b2273fccccd6")
+		)
+		(instances
+			(project "sensor"
+				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:MMBT5551L")
 		(at 58.42 86.36 0)
 		(unit 1)
@@ -5638,152 +5784,6 @@
 			(project "sensor"
 				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
 					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_02x14_Counter_Clockwise")
-		(at 71.12 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "630d9ac5-fa9c-4018-8bed-607f81967fd6")
-		(property "Reference" "J3"
-			(at 72.39 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x14_Counter_Clockwise"
-			(at 72.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x14_P2.54mm_Vertical"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x14, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "851b74bc-7379-48dc-a535-808ac5ed914e")
-		)
-		(pin "27"
-			(uuid "c3dbbafd-3c6d-4911-8adc-59603c77fa4a")
-		)
-		(pin "25"
-			(uuid "11fe505d-ff7f-449b-b941-5ad2f7d88972")
-		)
-		(pin "28"
-			(uuid "138b90e4-7212-44bd-beb6-bb6a2432433b")
-		)
-		(pin "15"
-			(uuid "aee52e7c-076e-4423-b1ea-5c933c507096")
-		)
-		(pin "16"
-			(uuid "f560b154-46a1-46f7-915d-45e7c71540a0")
-		)
-		(pin "21"
-			(uuid "35c35d07-8c19-4d86-9466-30e21eab6673")
-		)
-		(pin "23"
-			(uuid "45936e16-329a-46dd-a5a9-04b372f0b778")
-		)
-		(pin "12"
-			(uuid "53629650-de6a-4ca1-9329-b636c19adf0d")
-		)
-		(pin "4"
-			(uuid "231a3998-19a5-48be-895f-0294fc430968")
-		)
-		(pin "19"
-			(uuid "c1dbf61b-091a-47d4-9157-09b4b5c3d55e")
-		)
-		(pin "22"
-			(uuid "a5383b68-b464-4c1d-8eb5-b68e09b3a6fc")
-		)
-		(pin "5"
-			(uuid "0aa75655-c9f7-487b-a218-3fb76a26e4d9")
-		)
-		(pin "8"
-			(uuid "89973246-b208-4343-9e74-27760de6ea55")
-		)
-		(pin "3"
-			(uuid "ee9d5af7-40bd-4ba3-97b1-b68beb8af1c0")
-		)
-		(pin "14"
-			(uuid "4e75e126-8a98-4d55-8386-6d6d32bf305c")
-		)
-		(pin "1"
-			(uuid "96fcc987-ddfc-4031-a4cf-212175d91799")
-		)
-		(pin "24"
-			(uuid "d85a3174-63d5-4d09-a10c-6c31e049b811")
-		)
-		(pin "13"
-			(uuid "c2b2ba6a-985f-4174-833a-e0e36aa8c27c")
-		)
-		(pin "7"
-			(uuid "e8747044-db79-4d0e-beed-20e7bede3952")
-		)
-		(pin "6"
-			(uuid "1cdb76b7-da02-4b06-8fc3-b81a7337602d")
-		)
-		(pin "20"
-			(uuid "fe6029aa-32db-4c49-b48d-5721c6548c2e")
-		)
-		(pin "11"
-			(uuid "e5402b35-b09f-4f59-93ea-3030762b1748")
-		)
-		(pin "2"
-			(uuid "78458e9a-083c-417d-8f04-9c677a4e8b17")
-		)
-		(pin "9"
-			(uuid "157bcc04-ce4c-453d-ae5f-eb2271ec404c")
-		)
-		(pin "18"
-			(uuid "819e196b-fc62-4c1e-b11d-ee4e7a162ae4")
-		)
-		(pin "17"
-			(uuid "16f31cb4-38e8-4254-aa58-012f95dd3ebb")
-		)
-		(pin "26"
-			(uuid "5dadfcc7-74ae-43bb-ac04-fa391e027b68")
-		)
-		(instances
-			(project "sensor"
-				(path "/fddf1a24-418d-41c5-aa43-003ad0e16f35"
-					(reference "J3")
 					(unit 1)
 				)
 			)
