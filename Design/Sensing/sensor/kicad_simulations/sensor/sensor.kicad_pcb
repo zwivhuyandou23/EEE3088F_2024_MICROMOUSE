@@ -191,7 +191,7 @@
 		(path "/2cf8a873-8d33-49bf-a80c-2018165a023c")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -343,7 +343,7 @@
 			(uuid "464131ed-014d-43bf-89ed-6d26f395d794")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 270)
+			(at 0 1.27 -90)
 			(layer "F.Fab")
 			(uuid "bf1c32a3-ba3b-4826-b107-d4fd6a0e7cbd")
 			(effects
@@ -455,7 +455,7 @@
 		(path "/621d63e6-9b86-4f5a-b042-4178a16a58ad")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -720,7 +720,7 @@
 		(path "/06192eee-7048-470a-ae62-4d217741e49c")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 1.33)
@@ -872,7 +872,7 @@
 			(uuid "26006064-42fc-4c06-9eff-bab7e22f3912")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ca2f42a4-75a8-4836-a776-05c1550cde29")
 			(effects
@@ -1991,7 +1991,7 @@
 		(path "/e0530a0a-9f0b-4fde-b408-46853d251c8f")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -2731,7 +2731,7 @@
 		(path "/38133ac2-986d-42e3-8025-4f1e7d5fe5e1")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -2883,7 +2883,7 @@
 			(uuid "1dd949c5-486b-41a8-8910-5119cd20d8b9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.270001 315)
+			(at 0 1.270001 -45)
 			(layer "F.Fab")
 			(uuid "b65faf41-0602-45d3-a3f8-73837d70e2c5")
 			(effects
@@ -3139,7 +3139,7 @@
 		)
 		(fp_arc
 			(start 4.54 1.4)
-			(mid 2.54 3.4)
+			(mid 2.54 3.399999)
 			(end 0.54 1.4)
 			(stroke
 				(width 0.1)
@@ -3437,7 +3437,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(uuid "47e5b9d2-b0dc-4c4e-a15d-980498e49fcf")
 			(effects
@@ -3448,7 +3448,7 @@
 			)
 		)
 		(property "Value" "2.7k"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(uuid "601d142d-cda1-4cd5-9be3-9810566ff4ba")
 			(effects
@@ -3600,7 +3600,7 @@
 			(uuid "8fbbfad8-33ae-4314-8e81-9130b56162bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3e05dece-9eca-4fba-81bd-3f47e40854be")
 			(effects
@@ -3614,7 +3614,7 @@
 			(at -1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 6 "Net-(Q2-B)")
 			(pintype "passive")
 			(uuid "c39d9f62-0f67-4c48-96a5-4788cac09969")
@@ -3623,7 +3623,7 @@
 			(at 1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 29 "/PE15")
 			(pintype "passive")
 			(uuid "cf211223-f3b7-4139-9a30-8be2dac5e809")
@@ -3708,7 +3708,7 @@
 		(path "/630d9ac5-fa9c-4018-8bed-607f81967fd6")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 -1.33)
 			(end 1.33 0)
@@ -4222,7 +4222,7 @@
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
-			(at 0 -1.448 360)
+			(at 0 -1.448 0)
 			(layer "F.SilkS")
 			(uuid "9c24c109-c3f4-4642-8608-a4a7694f064d")
 			(effects
@@ -4233,7 +4233,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 0 1.55 360)
+			(at 0 1.55 0)
 			(layer "F.Fab")
 			(uuid "18e6486c-718d-4d1c-9176-2aaa612643c0")
 			(effects
@@ -4307,7 +4307,7 @@
 			(uuid "967599cb-3ad8-4a0a-b0c6-e23413f616fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -1.45 360)
+			(at 0 -1.45 0)
 			(layer "F.Fab")
 			(uuid "69c27dde-d883-4251-bde5-e427bee7d3bb")
 			(effects
@@ -4511,7 +4511,7 @@
 			(at -1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 7 "Net-(J9-Pin_2)")
 			(pintype "passive")
 			(uuid "e822f42c-87f2-4c86-ad54-49212d9b00c1")
@@ -4520,7 +4520,7 @@
 			(at 1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 3 "Net-(D3-K)")
 			(pintype "passive")
 			(uuid "897227c5-95d6-43b2-b458-b611bef99c23")
@@ -4721,7 +4721,7 @@
 			(at -1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 8 "Net-(Q3-B)")
 			(pintype "passive")
 			(uuid "86fddc58-60c5-4157-b61c-502391921e97")
@@ -4730,7 +4730,7 @@
 			(at 1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 29 "/PE15")
 			(pintype "passive")
 			(uuid "7e7f2309-c539-4e55-bfaa-9c224f2a231a")
@@ -4815,7 +4815,7 @@
 		(path "/197b69ae-7a0d-48f1-9971-7b920e6096fd")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -5195,7 +5195,7 @@
 			(at -1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 4 "Net-(Q1-B)")
 			(pintype "passive")
 			(uuid "3cde9a6a-e2cc-4940-adca-461fa857c035")
@@ -5204,7 +5204,7 @@
 			(at 1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 29 "/PE15")
 			(pintype "passive")
 			(uuid "43f65946-808c-4b6e-9764-230aaac90d96")
@@ -5716,7 +5716,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 -2.4 270)
+			(at 0 -2.4 -90)
 			(layer "F.SilkS")
 			(uuid "de0a84db-5af2-4aa4-9e87-4ae5c1762ea6")
 			(effects
@@ -5727,7 +5727,7 @@
 			)
 		)
 		(property "Value" "MMBT5551L"
-			(at 0 2.4 270)
+			(at 0 2.4 -90)
 			(layer "F.Fab")
 			(uuid "c2285e9d-e624-40d3-92a5-379d12ba0431")
 			(effects
@@ -5921,7 +5921,7 @@
 			(uuid "3de29e90-5947-4951-a252-b1db9e6cc8c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "380f77d9-0afe-40f3-86fa-3d922fd3a7e6")
 			(effects
@@ -6041,7 +6041,7 @@
 		(path "/ebfc6edf-1b97-4582-84db-5390c572b4c4")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -6569,7 +6569,7 @@
 		(path "/72638bf0-76a7-47d9-aca4-821dcb651dce")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -6833,7 +6833,7 @@
 		(path "/5c67e552-99df-47b3-b63e-3482b3318663")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -7097,7 +7097,7 @@
 		(path "/46c47560-5839-41a8-aaf7-3d8c5f0cdc2f")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -7300,7 +7300,7 @@
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
 		(property "Reference" "J14"
-			(at 0 -2.33 360)
+			(at 0 -2.33 0)
 			(layer "F.SilkS")
 			(uuid "96197de0-b742-47c9-8534-675f18343a69")
 			(effects
@@ -7311,7 +7311,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 0 2.33 360)
+			(at 0 2.33 0)
 			(layer "F.Fab")
 			(uuid "63f09e13-010a-4aaf-8eff-f40d7137f569")
 			(effects
@@ -7361,7 +7361,7 @@
 		(path "/4d443196-8e21-4876-a1d8-28dac7d4b4d2")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -7730,7 +7730,7 @@
 			(at -1.4625 0 180)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 14 "Net-(J11-Pin_2)")
 			(pintype "passive")
 			(uuid "875c08c4-7500-463f-a956-06e908a81cce")
@@ -7739,7 +7739,7 @@
 			(at 1.4625 0 180)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 36 "Net-(D5-K)")
 			(pintype "passive")
 			(uuid "08a9a544-bd26-4982-99e0-d75b47e025e4")
@@ -7763,7 +7763,7 @@
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0 -5.28 270)
+			(at 0 -5.28 -90)
 			(layer "F.SilkS")
 			(uuid "7b4b0554-3558-406b-8a6e-d829b60d8adc")
 			(effects
@@ -7774,7 +7774,7 @@
 			)
 		)
 		(property "Value" "LM324"
-			(at 0 5.28 270)
+			(at 0 5.28 -90)
 			(layer "F.Fab")
 			(uuid "8d9954e4-6889-4f56-b03b-b4669cd9ddf7")
 			(effects
@@ -7968,7 +7968,7 @@
 			(uuid "13d7856b-fd1e-4f2a-90d8-6ab1098c39bc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "52481698-0c98-4c58-905e-845de605f6ec")
 			(effects
@@ -8782,7 +8782,7 @@
 		(path "/bf068ce7-7066-4656-bc48-be5fd2b73f66")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -9179,7 +9179,7 @@
 		)
 		(fp_arc
 			(start 4.54 1.4)
-			(mid 2.54 3.399999)
+			(mid 2.54 3.4)
 			(end 0.54 1.4)
 			(stroke
 				(width 0.1)
@@ -9313,7 +9313,7 @@
 		(path "/624d1e68-91cb-4582-a306-e7ac644f0f33")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 3.87)
@@ -9465,7 +9465,7 @@
 			(uuid "cc961095-59f4-4fab-b5b0-c8f778720a41")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 1.27 270)
+			(at 0 1.27 -90)
 			(layer "F.Fab")
 			(uuid "fac660e7-4fa5-4df3-abea-1d58268961ef")
 			(effects
@@ -9577,7 +9577,7 @@
 		(path "/cdea5a5c-35d8-4637-bc65-523b2c2fa7ed")
 		(sheetname "Root")
 		(sheetfile "sensor.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.33 3.87)
 			(end 1.33 3.87)
@@ -9957,7 +9957,7 @@
 			(at -1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 13 "Net-(J2-Pin_2)")
 			(pintype "passive")
 			(uuid "6bc41b1f-dac7-4d87-8cf5-d744abf2301c")
@@ -9966,7 +9966,7 @@
 			(at 1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 1 "Net-(D1-K)")
 			(pintype "passive")
 			(uuid "2c2716f0-e97c-4ee2-85a6-ab6cf9b777e6")
