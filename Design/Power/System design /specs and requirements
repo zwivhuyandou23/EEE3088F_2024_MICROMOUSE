@@ -41,9 +41,3 @@ The Power Management System is responsible for providing the necessary electrica
    - Maximum Current Output: 0.8A
 
 
-
-#### Test Plan:
-- Test 1: Verify input voltage regulation under varying load conditions.
-- Test 2: Verify output voltage stability during startup and operation.
-- Test 3: Test overcurrent and overvoltage protection mechanisms.
-
