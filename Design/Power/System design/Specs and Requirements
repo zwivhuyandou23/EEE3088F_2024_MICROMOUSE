@@ -1,0 +1,42 @@
+### Subsystem: Power Management System
+
+#### Description:
+The Power Management System is responsible for providing the necessary electrical power to all components of the micro mouse and charging the battery.
+#### Requirements:
+1. **Functional Requirements:**
+   - Requirement 1: The system shall regulate input voltage to provide stable power to all components.
+   - Requirement 2: The system shall support multiple power sources, including batteries and external power supplies.
+   - Requirement 3: The system shall include overcurrent and overvoltage protection mechanisms to prevent damage to components.
+   - Requirement 4: The system shall be able to turn on and off.
+   - Requirement 5: The system shall be able to charge the battery.
+   - Requirement 6: The battery shall be able to power 2 motors at 200mA each
+
+2. **Performance Requirements:**
+   - Requirement 1: The system shall maintain output voltage within ±5% of the target voltage under varying load conditions.
+   - Requirement 2: The system shall minimize power consumption during idle and standby modes.
+   
+
+3. **Interface Requirements:**
+   - Requirement 1: The system shall provide status indicators for power input/output and battery level.
+   - Requirement 2: The system shall include a power switch for user control.
+
+4. **Safety Requirements:**
+   - Requirement 1: The system shall incorporate short-circuit protection to prevent damage in case of a short circuit.
+   - Requirement 2: The system shall include thermal protection to prevent overheating.
+
+5. **Reliability Requirements:**
+   - Requirement 1: The system shall be designed for continuous operation without failure for at 2 hours.
+
+#### Specifications:
+1. **Hardware Specifications:**
+   - Motor Driver: LM7805 linear voltage regulator
+   - Battery Type: Lithium-ion rechargeable battery (3.7V)
+   - Battery charger with protection Circuit: TP4056-42-ESOP8
+   - Power Switch: a slide switch
+
+
+3. **Electrical Specifications:**
+   - Input Voltage Range: 3.3V - 5V DC
+   - Output Voltage: 3.7V DC
+   - Maximum Current Output: 0.8A
+
