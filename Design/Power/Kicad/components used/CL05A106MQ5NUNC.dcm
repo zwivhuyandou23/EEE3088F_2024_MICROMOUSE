@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL05A106MQ5NUNC
+D CAP CER 10UF 6.3V X5R 0402
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA10/2406160.pdf
+$ENDCMP
+#
+#End Doc Library

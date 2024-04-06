@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A3901SEJTR-T
+D Dual Full Bridge Low Voltage Motor Driver
+K
+F https://www.allegromicro.com/-/media/files/datasheets/a3901-datasheet.pdf
+$ENDCMP
+#
+#End Doc Library

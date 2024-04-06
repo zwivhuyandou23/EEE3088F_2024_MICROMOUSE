@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B5819WS
+D Schottky Barrier Diodes (SBD) SOD-323 RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/1903051130_MDD-Jiangsu-Yutai-Elec-B5819WS_C64886.pdf
+$ENDCMP
+#
+#End Doc Library

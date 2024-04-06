@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1206W4F1002T5E
+#/7098239/1355511/2.50/2/3/Resistor
+DEF 1206W4F1002T5E R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "1206W4F1002T5E" 550 150 50 H V L CNN
+F2 "RESC3116X65N" 550 50 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-1206W4F1002T5E_C17902.pdf" 550 -50 50 H I L CNN
+F4 "Chip Resistor - Surface Mount 10KOhms +/-1% 1/4W 1206 RoHS" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "UNI-ROYAL(Uniroyal Elec)" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "1206W4F1002T5E" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

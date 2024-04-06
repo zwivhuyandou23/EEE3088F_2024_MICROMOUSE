@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61040DBVRG4
+D Conv DC-DC 1.8V to 6V Step Up Single-Out 1.8V to 28V 0.4A 5-Pin SOT-23 T/R
+K
+F https://www.arrow.com/en/products/tps61040dbvrg4/texas-instruments
+$ENDCMP
+#
+#End Doc Library

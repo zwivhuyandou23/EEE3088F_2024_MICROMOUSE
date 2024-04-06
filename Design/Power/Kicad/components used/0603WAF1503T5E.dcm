@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0603WAF1503T5E
+D ROYALOHM Thick Film Chip Resistors are small, lightweight, and cost-effective resistors with a 1/20W to 1W power rating at +70C, depending on the package size.
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/UNOD/UNODS00002/UNODS00002-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

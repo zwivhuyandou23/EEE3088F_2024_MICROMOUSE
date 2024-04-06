@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0603WAF4703T5E
+D 100mW Thick Film Resistors 100ppm/ 1% 470k 0603  Chip Resistor  Surface Mount ROHS
+K
+F https://datasheet.lcsc.com/lcsc/2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4703T5E_C23178.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS61040DBVR
+D Switch Boost Converter 28V 400mA for LCD Texas Instruments TPS61040DBVR, Step Up DC-DC Converter, 550mA, Adjustable, 1.8 ??? 28 V, 5-Pin SOT-23
+K
+F http://www.ti.com/lit/ds/symlink/tps61040.pdf
+$ENDCMP
+#
+#End Doc Library

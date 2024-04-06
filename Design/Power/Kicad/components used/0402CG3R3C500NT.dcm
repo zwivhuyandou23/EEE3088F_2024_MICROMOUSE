@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0402CG3R3C500NT
+D 3.3pF +/-0.25pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/Guangdong-Fenghua-Advanced-Tech-0402CG3R3C500NT_C1565.pdf
+$ENDCMP
+#
+#End Doc Library
