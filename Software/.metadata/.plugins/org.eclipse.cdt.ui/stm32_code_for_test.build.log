@@ -1,0 +1,11 @@
+03:00:16 **** Build of configuration Debug for project stm32_code_for_test ****
+make -j4 all 
+arm-none-eabi-gcc -o "stm32_code_for_test.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\Zwivh\OneDrive - University of Cape Town\4th Year\EEE3088F\GIT_REPO\EEE3088F_2024_MICROMOUSE\Software\stm32_code_for_test\STM32F051C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32_code_for_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+C:/ST/STM32CubeIDE_1.14.1/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.100.202309141235/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/bin/ld.exe: ./Core/Startup/startup_stm32f051c6tx.o: in function `LoopFillZerobss':
+C:/Users/Zwivh/OneDrive - University of Cape Town/4th Year/EEE3088F/GIT_REPO/EEE3088F_2024_MICROMOUSE/Software/stm32_code_for_test/Debug/../Core/Startup/startup_stm32f051c6tx.s:91: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:64: stm32_code_for_test.elf] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+
+03:00:18 Build Failed. 2 errors, 0 warnings. (took 2s.195ms)
+
