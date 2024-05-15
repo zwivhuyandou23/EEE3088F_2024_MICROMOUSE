@@ -1,6 +1,6 @@
 # Welcome to the EEE3088F_2024_MICROMOUSE hardware project
 
-# ENVIRO-SENSING-HAT
+# EEE3088F_2024_MICROMOUSE
 
 
 ## Name
