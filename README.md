@@ -15,7 +15,7 @@ The Micromouse Project is a maze-solving robot project designed for the EEE3088F
 Maze completion.
 
 ## Usage
-The Micromouse project is intended for educational purposes in the EEE3088F 2024 course. Zwivhuya Ndou, Innocent Makhubela worked on designing, manufacturing, and demonstrating the sensor and power modules for the micro-mouse robot. To access and contribute to the Micromouse project, you will need KiCad to open the project PCB and schematic designs, as well as an IDE that supports C programming for coding the sensor integration.
+The Micromouse project is intended for educational purposes in the EEE3088F 2024 course. Zwivhuya Ndou, Innocent Makhubela worked on designing, manufacturing, and demonstrating the sensor and power modules for the micro-mouse robot.
 
 ## Installation
 To access some of the contents on the repo you will need kicad to open the project PCB, Schematics designs and an IDE that supports C programming
