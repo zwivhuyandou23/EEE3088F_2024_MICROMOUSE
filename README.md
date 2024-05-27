@@ -10,7 +10,7 @@ The Micromouse Project is a maze-solving robot project designed for the EEE3088F
 - Sensor module for detecting obstacles
 - Power module for powering the entire system
 - Integration with provided motherboard and processor boards
-- Demonstration of obstacle detection capabilities
+
 ## Project Scenarios
 Maze completion.
 
